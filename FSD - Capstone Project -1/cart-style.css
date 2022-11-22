@@ -1,0 +1,175 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Nav Bar */
+
+.Nav-Bar{
+    width:100%;
+}
+.container-fluid{
+    background-color: black;
+    border-radius:4px;
+  /*  transform: translateY(5px);*/
+}
+
+.logo{
+    color: white;
+}
+nav input{
+    border: none;
+    border-radius: 0px 0px 0px 8px;
+    padding: 15px;
+    height: 30px;
+    width: 400px;
+}
+nav button{
+    border:none;
+    border-radius:0px 8px 0px 0px;
+    height:30px;
+    font-weight:bold;
+    color:black;
+    background-color:rgb(192, 202, 51);
+}
+.navbar .end{
+   display:flex;
+   align-items: baseline;
+
+   gap: 10px;
+}
+.navbar .end h5 a{
+   text-decoration:none;
+   font-size: 21px;
+   color:black;
+   background-color:rgb(192, 202, 51);
+   padding:5px 15px 5px 15px;
+   margin: 5px 0px 0px 0px;
+   border-radius: 4px;
+
+}
+.navbar .end a {
+   color:black;
+   background-color:rgb(192, 202, 51);
+   padding:5px 8px 5px 8px;
+   margin: 5px 0px 0px 0px;
+   border-radius: 4px;
+   height: 33px;
+   width: 50px;
+   text-align: center;
+}
+
+/* Navigation panel */
+
+.nav-container{
+   background-color:lightgrey;
+   height:40px;
+
+}
+a:active{
+  color:;
+  font-weight:bold;white
+}
+a:link {
+  color:black;
+  font-weight:bold;
+}
+a:visited{
+  color:black;
+  font-weight:bold;
+}
+a:hover{
+  color: white;
+}
+
+
+/* <-- Cart --> */
+
+.main-container{
+    margin-top: 100px;
+    border-radius:8px;
+    margin-bottom: 100px;
+
+
+}
+.row{
+   justify-content:space-around;
+   border-radius:10px;
+}
+.items-in-cart{
+    margin:5px;
+}
+.item-col-1{
+    background: lightgrey;
+    text-align:center;
+    font-weight:bold;
+    border-radius:6px;
+    padding:8px 0px 8px 0px;
+}
+.counter{
+    font-weight: bold;
+    border:none;
+    border-radius: 6px;
+    background:rgb(192, 202, 51);
+    text-align:center;
+}
+input{
+    border-radius: 6px;
+    width:117px;
+    margin: 13px 0px 0px 12px;
+}
+span{
+    text-align:center;
+}
+.col-4{
+
+}
+.summary{
+    border: 1px solid grey;
+    border-radius:7px;
+    margin:5px;
+
+}
+.summary-col-1{
+    background: lightgrey;
+    text-align:center;
+    font-weight:bold;
+    border-radius:6px;
+    padding:8px 0px 8px 0px;
+
+}
+.float-start{
+    margin:8px 0px 8px 8px;
+}
+.float-end{
+   margin:8px 8px 8px 0px;
+}
+.submit-btn{
+    background:rgb(192, 202, 51);
+    text-align:center;
+    margin: 50px 0px 0px 80px;
+    padding:5px 10px 5px 10px;
+    font-weight: bold;
+    border:none;
+    border-radius: 6px;
+}
+
+/* footer */
+
+
+.d-flex {
+   color:white;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   text-align:center;
+   list-style: none;
+
+}
+.d-flex ul{
+   list-style: none;
+   margin: 50px;
+}
+.fixed-bottom{
+   bottom: -15px;
+   position:relative;
+}
